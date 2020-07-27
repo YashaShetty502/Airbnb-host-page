@@ -9,7 +9,9 @@ https://www.airbnb.co.in/host/homes?from_nav=1&locale=en&_set_bev_on_new_domain=
 
 This is how it looks!👀
 
+https://github.com/YashaShetty502/Airbnb-host-page/blob/master/airbnb_demo.gif
+
 
 Wanna checkout?🤩
 
-Here's the link👉  
+Here's the link👉  https://yashashetty502.github.io/Airbnb-host-page/
