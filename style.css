@@ -1,0 +1,466 @@
+body{
+   margin: 0px 0px;
+   font-family: Roboto, Helvetica, sans-serif;
+   color: #484848;
+}
+
+
+h3{
+    font-size: 24px;
+    line-height: 1.25em;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.75em;
+}
+
+a{
+    text-decoration: none;
+    color: #008489 !important;
+}
+
+h1{
+    padding-bottom: 40px;
+}
+
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    height: 32px;
+    position: fixed;
+    padding: 20px 35px;
+    border-bottom: 1px solid #EBEBEB;
+    background-color: #ffffff;
+    position: fixed;
+    margin-top: -140px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px !important;
+    padding-bottom: 22px;
+}
+
+.options{
+    
+    height: 12px;
+    margin-left: 50px;
+    margin-top: -60px;
+    padding: 30px 15px !important;
+}
+
+.navbar a:hover{
+    color: #008489 !important;
+    border-bottom: 2px solid #008489;
+}
+
+.get-started{
+    margin-top: -50px;
+    margin-left: 70em;
+}
+
+.btn-get-started{
+    height: 35px;
+    width: 120px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E61E4D;
+    color: #ffffff !important;
+}
+
+
+/* Header Section */
+
+#header-img{
+    
+    margin-top: -450px;
+    position: absolute;
+    z-index: -1;
+}
+
+.first-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.form-section{
+    width: 396px;
+    height: 400px;
+    background-color: #ffffff;
+    padding-left: 40px;
+    padding-top : 1px;
+    border-radius: 5px;
+    margin-top: 140px;
+    margin-left: 800px;
+}
+
+.form-heading{
+    color: #333333 !important;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+}
+
+.form-subheading{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -5px;
+}
+
+
+#location, #place , #guest{
+    height: 34px;
+    background-color: #ffffff;
+    margin-right: 30px;
+    border-radius: 5px;
+    padding-top: 13px;
+    padding-left: 16px;
+}
+
+#location{
+    width: 350px;
+}
+
+#place{
+    width: 200px;
+    margin-top: 10px;
+}
+
+#guest{
+    margin-left: 220px;
+    margin-top: -48px
+}
+
+.form-get-started{
+    width: 365px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #E61E4D;
+    color: #ffffff !important;
+}
+
+
+
+/* BODY SECTION */
+
+
+
+.body-section{
+    background-color: #ffffff;
+    padding: 5em 10em;
+    margin-left: 0px;
+    margin-top: 150px;
+}
+
+.info1, .info2{
+    width: 450px;
+}
+
+.info2{
+    margin-left: 550px;
+    margin-top: -190px;
+}
+
+hr{
+    border-bottom: 2px solid #484848;
+    width: 6%;
+    border-top: none;
+    margin: 100px auto ;
+}
+
+
+/* Steps */
+
+.steps{
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.heading{
+    font-size: 60px;
+    line-height: 64px;
+    text-align: center;
+    color: #333333 !important;
+}
+
+.fa-check-circle{
+    font-size: 3em;
+}
+
+.step-1, .step-2, .step-3, .pay-2, .pay-3, .no-1, .no-2, .no-3{
+    width: 300px;
+    padding-right: 43px;
+}
+
+.step-2{
+    margin-left: 343px;
+    margin-top: -226px;
+}
+
+.step-3{
+    margin-left: 686px;
+    margin-top: -256px;
+}
+
+.step-3 a:hover{
+    text-decoration: underline;
+}
+
+#quote{
+    font-size: 100px;
+    color:#FDB32B !important;
+    margin-top: 200px;
+}
+
+.host{
+    margin-top: 6em;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.host-1-img{
+    margin-left: 550px;
+    margin-top: -12em;
+    height: 516px;
+    width: 516px;
+}
+
+.learn-btn{
+    height: 40px;
+    width: 220px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* We have got you covered- features */
+
+.features{
+    margin-top: -100px;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.fa-check{
+    font-size: 20px;
+    color: #008489;
+    padding-right: 10px;
+
+}
+
+.host-2{
+    width: 1029px;
+    height: 580px;
+    margin-top: 50px;
+}
+
+/* Payment */
+
+.pay-2{
+    margin-left: 343px;
+    margin-top: -162px;
+}
+
+.pay-3{
+    margin-left: 686px;
+    margin-top: -192px;
+}
+
+.host-3-img{
+    height: 516px;
+    width: 516px;
+}
+
+#quote2{
+    font-size: 100px;
+    color:#FDB32B !important;
+}
+
+.host-3-info{
+    margin-left: 600px;
+    margin-top: -400px;
+    width: 400px;
+}
+
+#host-3-hr{
+    padding-top: 10em;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+/* host */
+
+.no-2{
+    margin-left: 343px;
+    margin-top: -115px;
+}
+
+.no-3{
+    margin-left: 686px;
+    margin-top: -115px;
+}
+
+.no-1, .no-2, .no-3{
+    font-size: 60px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.no-1 p,.no-2 p, .no-3 p{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1.375em !important;
+    text-align: center;
+}
+
+/* Questions */
+
+.questions{
+    font-size: 18px;
+    padding: 22px 0px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+/* More About hosting  */
+
+.more-hosting{
+    background-color: #ffffff;
+    padding: 5em 10em;
+    width: 1029px;
+}
+
+.setup img{
+    width: 333px;
+    border-radius: 2px;
+}
+
+.setup h3{
+    line-height: 22px !important;
+    font-size: 16px;
+}
+
+.setup p{
+    margin-top: -15px;
+}
+
+.safety{
+    margin-left: 343px;
+    margin-top: -315px;
+}
+
+.financial{
+    margin-left: 689px;
+    margin-top: -315px;
+}
+
+/* Earn Image */
+
+.earn-img{
+    width: 94%;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.earn-text{
+    margin-top: -25em;
+    margin-left: 150px;
+}
+
+.earn-text h1{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.earn-started{
+    width: 10em;
+    height: 3em;
+    color: #484848;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.earn-hr{
+    width: 90%;
+    border-top: 1px solid #EBEBEB;
+    border-bottom: none;
+    margin-top: 15em;
+}
+
+
+/* Community */
+
+.links{
+    width: 94%;
+    margin: -10px 35px 0 60px;
+}
+
+.links div{
+    width: 23%;
+    background-color: #ffffff;
+}
+
+.links h3{
+    line-height: 22px !important;
+    font-size: 16px;
+}
+
+ol{
+    list-style: none;
+    margin-left: -40px;
+}
+
+ol li{
+    margin-bottom: -3px;
+}
+
+.link-2{
+    margin-left: 24%;
+    margin-top: -379px;
+}
+
+.link-3{
+    margin-left: 48%;
+    margin-top: -287px; 
+}
+
+.link-4{
+    margin-left: 72%;
+    margin-top: -379px;
+}
+
+/* Footer */
+
+footer div{
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+#language{
+    margin-left: 500px;
+}
+
+footer i{
+    padding-left: 20px;
+}
+
+#rs{
+    margin-left: 20px;
+    margin-right: 10px;
+}
